@@ -12,7 +12,5 @@ actual_values = pd.read_csv('/content/train1.csv').Sales
 
 predicted_values = pd.read_csv('/content/predicted data.csv').Sales
 
-
-
 acc = accuracy(actual_values, predicted_values)
 print("Accuracy:", acc)
